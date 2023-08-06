@@ -21,4 +21,4 @@ DROP TABLE student_new_name;
 
 
 -- remove all row from table
-TRUNCATE TABLE student_new_name;
+TRUNCATE TABLE customers;
