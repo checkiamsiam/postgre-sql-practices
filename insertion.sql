@@ -5,10 +5,8 @@ INSERT INTO customers VALUES (7 , 'johnddodder', 'siamdf@ddgmail.om' , 19 , true
 
 -- *** insert multiple data ***
 INSERT INTO customers (username , email , age) VALUES 
-('johnddddoder', 'siamdf@ddgmail.om' , 19),
+('johnddddoder', 'siamdf@dail.om' , 19),
 ('johnddsdoder', 'siamdf@dfsgmail.om' , 19),
 ('johndddsfoder', 'siamdf@fsdgmail.om' , 19),
 ('johnddffoder', 'siamdf@dgsdfmail.om' , 19);
 
-
-SELECT * FROM customers;
