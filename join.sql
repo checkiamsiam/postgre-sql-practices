@@ -5,6 +5,8 @@ SELECT * FROM students INNER JOIN users ON users.id = students.userid;
 
 SELECT * FROM students s INNER JOIN users u ON u.id = s.userid;
 
+SELECT * FROM students as s INNER JOIN users as u ON u.id = s.userid;
+
 SELECT stuid , class , userid , name , email , adress FROM students s INNER JOIN users u ON u.id = s.userid;
 
 --- Left JOIN ----
