@@ -2,3 +2,6 @@ SELECT avg(age) as avg_age , min(age) as min_age  , max(age) as max_age , sum(ag
 
 
 SELECT age , count(*) FROM customers GROUP BY customers.age;
+
+
+SELECT age , count(*) FROM customers GROUP BY customers.age HAVING count(*) > 1;
