@@ -19,6 +19,7 @@ AS $$
 SELECT username, age FROM customers
 $$;
 
+
 SELECT  get_customer_age();
 SELECT * FROM get_customer_age();
 
@@ -39,6 +40,7 @@ END
 $$;
 
 
+EXECUTE FUNCTION fact();
 SELECT fact(5);
 
 
